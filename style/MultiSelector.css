@@ -1,0 +1,67 @@
+.elf .MultiSelect{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3px;
+    min-width: 80px;
+    min-height: 34px;
+}
+
+.ctnMultiSelect.hide{
+    display: none;
+}
+.MultiSelect {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    border: solid 1px lightgrey;
+}
+
+.ctnMultiSelect .head .title{
+    background-color: #80869f;
+    color: white;
+    padding: 5px;
+    margin-bottom: 6px;
+}
+
+.ctnRowMultiSelect {
+    display: flex;
+    align-items: center;
+    padding: 5px 2px;
+    position: relative;
+}
+
+.MultiSelect .ctnMultiSelect
+{
+    background-color: whitesmoke;
+    z-index: 2;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.ctnRowMultiSelect label{
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.ctnMultiSelect .body{
+    padding: 10px;
+}
+
+.ctnMultiSelect .body .rowSection{
+    max-height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ctnRowMultiSelect{
+    display: inline-block;
+}
